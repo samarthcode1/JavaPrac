@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class pascalTriangle {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the height: ");
         int height = sc.nextInt();
 
         for (int i = 0; i < height; i++) {
@@ -18,13 +19,6 @@ public class pascalTriangle {
             System.out.print(space);
             System.out.print('\n');
         }
+        sc.close();
     }
 }
-/*
-       
-
-
-
-
-
- */
